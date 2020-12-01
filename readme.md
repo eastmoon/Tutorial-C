@@ -4,6 +4,10 @@
 
 #### 1、主結構
 
++ [C++ Environment Setup](https://www.tutorialspoint.com/cplusplus/cpp_environment_setup.htm)
++ [C++ Basic Syntax](https://www.tutorialspoint.com/cplusplus/cpp_basic_syntax.htm)
++ [Comments in C++](https://www.tutorialspoint.com/cplusplus/cpp_comments.htm)
+
 #### 2、前置處理器
 
 + [C/C++ preprocessor reference](https://msdn.microsoft.com/zh-tw/library/y4skk93w.aspx)
