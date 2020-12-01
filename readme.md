@@ -16,7 +16,7 @@ dockerw start
 
 ## 目錄
 
-#### 1、主結構
+#### 基礎結構
 
 + [C++ Environment Setup](https://www.tutorialspoint.com/cplusplus/cpp_environment_setup.htm)
 + [C++ Basic Syntax](https://www.tutorialspoint.com/cplusplus/cpp_basic_syntax.htm)
@@ -26,12 +26,12 @@ dockerw start
 . run.sh base
 ```
 
-#### 2、前置處理器
+#### 前置處理器
 
 + [C/C++ preprocessor reference](https://msdn.microsoft.com/zh-tw/library/y4skk93w.aspx)
 + [前置處理器](http://zake7749.github.io/2015/08/13/Cpreprocessor/)
 
-#### 3、變數與描述式
+#### 變數
 
 + [C++ Data Types](https://www.tutorialspoint.com/cplusplus/cpp_data_types.htm)
 
@@ -60,18 +60,24 @@ dockerw start
 . run.sh storage-classes
 ```
 
-#### 4、函數
+#### 陳述式
 
-#### 5、指標
++ [Operators in C++](https://www.tutorialspoint.com/cplusplus/cpp_operators.htm)
++ [C++ Loop Types](https://www.tutorialspoint.com/cplusplus/cpp_loop_types.htm)
++ [C++ decision making statements](https://www.tutorialspoint.com/cplusplus/cpp_decision_making.htm)
 
-#### 6、物件與結構
+#### 函數
 
-#### 7、繼承與多型
+#### 指標
+
+#### 物件與結構
+
+#### 繼承與多型
 
 + [Polymorphism in C++](http://www.tutorialspoint.com/cplusplus/cpp_polymorphism.htm)
 
-#### 8、標準樣板函式庫(STL)
+#### 標準樣板函式庫(STL)
 
-#### 9、函式庫應用
+#### 函式庫應用
 
 ## 參考
