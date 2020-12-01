@@ -115,8 +115,14 @@ Difference in Reference variable and pointer variable :
   - [CMake 入門/建置執行檔](https://zh.m.wikibooks.org/zh-tw/CMake_%E5%85%A5%E9%96%80/%E5%BB%BA%E7%BD%AE%E5%9F%B7%E8%A1%8C%E6%AA%94)
 
 ```
+. run.sh class
+```
+> 使用 c++ 編譯所有 cpp 檔案
+
+```
 . run-cmake.sh class
 ```
+> 使用 cmake 建立 makefile 來編譯專案
 
 #### 繼承與多型
 
