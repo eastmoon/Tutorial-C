@@ -106,6 +106,18 @@ Difference in Reference variable and pointer variable :
 
 #### 物件與結構
 
++ 語言文獻
+  - [Data Structures](https://www.tutorialspoint.com/cplusplus/cpp_data_structures.htm)
+  - [Classes and Objects](https://www.tutorialspoint.com/cplusplus/cpp_classes_objects.htm)
+
++ 物件編譯
+  - [標頭檔](https://docs.microsoft.com/zh-tw/cpp/cpp/header-files-cpp?view=msvc-160)
+  - [CMake 入門/建置執行檔](https://zh.m.wikibooks.org/zh-tw/CMake_%E5%85%A5%E9%96%80/%E5%BB%BA%E7%BD%AE%E5%9F%B7%E8%A1%8C%E6%AA%94)
+
+```
+. run-cmake.sh class
+```
+
 #### 繼承與多型
 
 + [Polymorphism in C++](http://www.tutorialspoint.com/cplusplus/cpp_polymorphism.htm)
@@ -113,5 +125,8 @@ Difference in Reference variable and pointer variable :
 #### 標準樣板函式庫(STL)
 
 #### 函式庫應用
+
++ [Input and Output](https://www.tutorialspoint.com/cplusplus/cpp_basic_input_output.htm)
++ [Date and Time](https://www.tutorialspoint.com/cplusplus/cpp_date_time.htm)
 
 ## 參考
