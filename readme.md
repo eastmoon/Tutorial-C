@@ -53,6 +53,13 @@ dockerw start
 . run.sh modifier
 ```
 
++ [Storage Classes in C++](https://www.tutorialspoint.com/cplusplus/cpp_storage_classes.htm)
++ [儲存類別](https://docs.microsoft.com/zh-tw/cpp/cpp/storage-classes-cpp?view=msvc-160)
+
+```
+. run.sh storage-classes
+```
+
 #### 4、函數
 
 #### 5、指標
