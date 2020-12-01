@@ -68,6 +68,23 @@ dockerw start
 
 #### 函數
 
++ [C++ Functions](https://www.tutorialspoint.com/cplusplus/cpp_functions.htm)
++ [Passing by pointer Vs Passing by Reference in C++](https://www.geeksforgeeks.org/passing-by-pointer-vs-passing-by-reference-in-c/)
+
+Difference in Reference variable and pointer variable :
+1. A pointer can be re-assigned while reference cannot, and must be assigned at initialization only.
+2. Pointer can be assigned NULL directly, whereas reference cannot.
+3. Pointers can iterate over an array, we can use ++ to go to the next item that a pointer is pointing to.
+4. A pointer is a variable that holds a memory address. A reference has the same memory address as the item it references.
+5. A pointer to a class/struct uses ‘->'(arrow operator) to access it’s members whereas a reference uses a ‘.'(dot operator)
+6. A pointer needs to be dereferenced with * to access the memory location it points to, whereas a reference can be used directly.
+
+**Overall, Use references when you can, and pointers when you have to. But if we want to write C code that compiles with both C and a C++ compiler, you’ll have to restrict yourself to using pointers.**
+
+```
+. run.sh function
+```
+
 #### 指標
 
 #### 物件與結構
