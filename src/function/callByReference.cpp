@@ -1,5 +1,5 @@
 // C++ program to swap two numbers using
-// pass by pointer.
+// pass by reference.
 #include <iostream>
 using namespace std;
 

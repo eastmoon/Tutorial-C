@@ -1,5 +1,5 @@
-// C++ program to swap two numbers using
-// pass by pointer.
+// C++ program to return max value in two numbers using
+// pass by value.
 #include <iostream>
 using namespace std;
 
