@@ -85,6 +85,16 @@ Difference in Reference variable and pointer variable :
 . run.sh function
 ```
 
+#### 資料
+
++ [C++ Numbers](https://www.tutorialspoint.com/cplusplus/cpp_numbers.htm)
++ [C++ Arrays](https://www.tutorialspoint.com/cplusplus/cpp_arrays.htm)
++ [C++ Strings](https://www.tutorialspoint.com/cplusplus/cpp_strings.htm)
+
+```
+. run.sh data
+```
+
 #### 指標
 
 #### 物件與結構
