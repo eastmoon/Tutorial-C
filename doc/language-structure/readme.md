@@ -1,4 +1,4 @@
-﻿◎ Variabe & Statement
+﻿# Language Structure
 
 ※ 相關文章參考：
 ---------------------------

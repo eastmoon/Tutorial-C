@@ -1,4 +1,4 @@
-﻿◎ Class & Struct
+# Inherent & Polymorphism 
 
 ※ 相關文章參考：
 ---------------------------

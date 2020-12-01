@@ -1,4 +1,4 @@
-﻿◎ Inherent & Polymorphism 
+﻿# Pointer
 
 ※ 相關文章參考：
 ---------------------------

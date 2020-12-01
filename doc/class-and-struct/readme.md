@@ -1,4 +1,4 @@
-﻿◎  Language Structure
+﻿# Class & Struct
 
 ※ 相關文章參考：
 ---------------------------
