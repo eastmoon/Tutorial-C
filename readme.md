@@ -97,6 +97,13 @@ Difference in Reference variable and pointer variable :
 
 #### 指標
 
++ [C++ Pointers](https://www.tutorialspoint.com/cplusplus/cpp_pointers.htm)
++ [C++ References](https://www.tutorialspoint.com/cplusplus/cpp_references.htm)
+
+```
+. run.sh pointer
+```
+
 #### 物件與結構
 
 #### 繼承與多型
