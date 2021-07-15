@@ -5,5 +5,4 @@ namespace N
         public:
             void do_something();
     };
-
 }
