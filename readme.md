@@ -127,7 +127,21 @@ Difference in Reference variable and pointer variable :
 
 #### 繼承與多型
 
-+ [Polymorphism in C++](http://www.tutorialspoint.com/cplusplus/cpp_polymorphism.htm)
+多型是指為不同衍生類別的實體提供統一的介面，而在 C++ 中若統一介面的指標需呼叫指向的衍生類別經過函數複寫 ( Function Override ) 的函數，則需於基底類別中宣告虛擬函數 ( Virtual Function )
+
++ 語言文獻
+    - [Polymorphism wiki](https://zh.wikipedia.org/wiki/%E5%A4%9A%E6%80%81_(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6))
+        + [Polymorphism in C++](http://www.tutorialspoint.com/cplusplus/cpp_polymorphism.htm)
+        + [Function Override](https://beginnersbook.com/2017/09/cpp-function-overriding/)
+        + [Virtual Function](https://beginnersbook.com/2017/09/cpp-function-overriding/)
+
++ 物件編譯
+    - [如何使用CMake正確添加包含目錄](https://ubuntuqa.com/zh-tw/article/9081.html)
+
+```
+. run-cmake.sh class-polymorphism
+```
+> 使用 cmake 建立 makefile 來編譯專案
 
 #### 標準樣板函式庫(STL)
 
