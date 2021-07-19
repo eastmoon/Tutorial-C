@@ -145,6 +145,30 @@ Difference in Reference variable and pointer variable :
 
 #### 標準樣板函式庫(STL)
 
+**標準樣板函式庫（英文：Standard Template Library，縮寫：STL），是一個 C++ 函式庫，大量影響了 C++ 標準程式庫但並非是其的一部分；其中包含4個組件，分別為演算法、容器、函式、疊代器。**
+> From [標準樣板函式庫 wiki](https://zh.wikipedia.org/wiki/%E6%A0%87%E5%87%86%E6%A8%A1%E6%9D%BF%E5%BA%93)
+
++ 容器
+    - [Vector](https://www.geeksforgeeks.org/vector-in-cpp-stl/)，範例 ```. run-cmake.sh stl/vector```
+    - [List](https://www.geeksforgeeks.org/list-cpp-stl/)
+    - [Deque](https://www.geeksforgeeks.org/deque-cpp-stl/)
+    - [Queue](https://www.geeksforgeeks.org/queue-cpp-stl/)
+    - [Set](https://www.geeksforgeeks.org/set-in-cpp-stl/)
+    - [Map](https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl/)
+
++ 疊代器
+    - [Iterators](https://www.geeksforgeeks.org/iterators-c-stl/)
+
++ [演算法](https://www.cplusplus.com/reference/algorithm/)
+    - [for_each](https://www.cplusplus.com/reference/algorithm/for_each/)，範例 ```. run-cmake.sh stl/vector```
+
++ 文獻
+    - [C++ STL 教程](https://www.runoob.com/cplusplus/cpp-stl-tutorial.html)
+    - [C++ STL 學習總結(全面)](https://jasonblog.github.io/note/c++/c++_stl_xue_xi_zong_7d5028_quan_976229.html)
+    - [The C++ Standard Template Library (STL)](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/)
+
+
+
 #### 函式庫應用
 
 + [Input and Output](https://www.tutorialspoint.com/cplusplus/cpp_basic_input_output.htm)
