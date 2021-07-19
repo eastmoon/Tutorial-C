@@ -151,3 +151,5 @@ Difference in Reference variable and pointer variable :
 + [Date and Time](https://www.tutorialspoint.com/cplusplus/cpp_date_time.htm)
 
 ## 參考
+
++ [重新理解 C++](https://zh-tw.coderbridge.com/series/9c0fd91d2bbb4986b0b451aed1319325/posts/f207875881a743548d3d904335bedca4)
