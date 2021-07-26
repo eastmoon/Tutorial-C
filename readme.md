@@ -167,6 +167,11 @@ Difference in Reference variable and pointer variable :
 + [演算法](https://www.cplusplus.com/reference/algorithm/)
     - [for_each](https://www.cplusplus.com/reference/algorithm/for_each/)，範例 ```. run-cmake.sh stl/vector```
 
++ 其他
+    - [limits](https://www.cplusplus.com/reference/limits/)
+        + C++11 的 limits 提供的 std::numeric_limits 類別，可提供編譯平台的基礎算數類別 ( int、float、chart ) 的數值資訊，用以取代傳統的預處理常數
+        + [C/C++11中std::numeric_limits的使用](https://blog.csdn.net/fengbingchun/article/details/77922558)，範例 ```. run-cmake.sh stl/limits```
+
 + 文獻
     - [C++ STL 教程](https://www.runoob.com/cplusplus/cpp-stl-tutorial.html)
     - [C++ STL 學習總結(全面)](https://jasonblog.github.io/note/c++/c++_stl_xue_xi_zong_7d5028_quan_976229.html)
