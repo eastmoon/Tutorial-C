@@ -143,6 +143,11 @@ Difference in Reference variable and pointer variable :
 ```
 > 使用 cmake 建立 makefile 來編譯專案
 
+#### 例外
+
++ [MSVC 中的例外處理](https://docs.microsoft.com/zh-tw/cpp/cpp/exception-handling-in-visual-cpp?view=msvc-160)
+    - [例外狀況規格 (擲回、noexcept) MSDN](https://docs.microsoft.com/zh-tw/cpp/cpp/exception-specifications-throw-cpp?view=msvc-160)
+
 #### 標準樣板函式庫(STL)
 
 **標準樣板函式庫（英文：Standard Template Library，縮寫：STL），是一個 C++ 函式庫，大量影響了 C++ 標準程式庫但並非是其的一部分；其中包含4個組件，分別為演算法、容器、函式、疊代器。**
@@ -167,7 +172,12 @@ Difference in Reference variable and pointer variable :
     - [C++ STL 學習總結(全面)](https://jasonblog.github.io/note/c++/c++_stl_xue_xi_zong_7d5028_quan_976229.html)
     - [The C++ Standard Template Library (STL)](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/)
 
+#### 執行緒 ( Thread ) 與原子 ( Atome )
 
++ [Multithreading in modern C++](https://www.modernescpp.com/index.php/der-einstieg-in-modernes-c)
+    - [A new Thread with C++20: std::jthread](https://www.modernescpp.com/index.php/a-new-thread-with-c-20-std-jthread)
+    - [An Improved Thread with C++20](https://www.modernescpp.com/index.php/an-improved-thread-with-c-20)
+    - [The Atomic Flag](https://www.modernescpp.com/index.php/the-atomic-flag)
 
 #### 函式庫應用
 
