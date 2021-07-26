@@ -145,7 +145,7 @@ Difference in Reference variable and pointer variable :
 
 #### 例外
 
-+ [stdexcept](https://en.cppreference.com/w/cpp/header/stdexcept)
++ [stdexcept cppreference](https://en.cppreference.com/w/cpp/header/stdexcept)
     + [try、throw 和 catch 陳述式 (C++)](https://docs.microsoft.com/zh-tw/cpp/cpp/try-throw-and-catch-statements-cpp?view=msvc-160)
     + [評估 Catch 區塊的方式 (C++)](https://docs.microsoft.com/zh-tw/cpp/cpp/how-catch-blocks-are-evaluated-cpp?view=msvc-160)
     + [MSVC 中的例外處理](https://docs.microsoft.com/zh-tw/cpp/cpp/exception-handling-in-visual-cpp?view=msvc-160)
@@ -176,9 +176,7 @@ Difference in Reference variable and pointer variable :
     - [for_each](https://www.cplusplus.com/reference/algorithm/for_each/)，範例 ```. run-cmake.sh stl/vector```
 
 + 其他
-    - [limits](https://www.cplusplus.com/reference/limits/)
-        + C++11 的 limits 提供的 std::numeric_limits 類別，可提供編譯平台的基礎算數類別 ( int、float、chart ) 的數值資訊，用以取代傳統的預處理常數
-        + [C/C++11中std::numeric_limits的使用](https://blog.csdn.net/fengbingchun/article/details/77922558)，範例 ```. run-cmake.sh stl/limits```
+
 
 + 文獻
     - [C++ STL 教程](https://www.runoob.com/cplusplus/cpp-stl-tutorial.html)
@@ -188,14 +186,20 @@ Difference in Reference variable and pointer variable :
 #### 執行緒 ( Thread ) 與原子 ( Atome )
 
 + [Multithreading in modern C++](https://www.modernescpp.com/index.php/der-einstieg-in-modernes-c)
-    - [A new Thread with C++20: std::jthread](https://www.modernescpp.com/index.php/a-new-thread-with-c-20-std-jthread)
-    - [An Improved Thread with C++20](https://www.modernescpp.com/index.php/an-improved-thread-with-c-20)
-    - [The Atomic Flag](https://www.modernescpp.com/index.php/the-atomic-flag)
++ [thread cppreference](https://en.cppreference.com/w/cpp/thread)
+
+```
+. run-cmake.sh thread
+```
+> 使用 cmake 建立 makefile 來編譯專案
 
 #### 函式庫應用
 
 + [Input and Output](https://www.tutorialspoint.com/cplusplus/cpp_basic_input_output.htm)
 + [Date and Time](https://www.tutorialspoint.com/cplusplus/cpp_date_time.htm)
++ [limits](https://www.cplusplus.com/reference/limits/)
+    + C++11 的 limits 提供的 std::numeric_limits 類別，可提供編譯平台的基礎算數類別 ( int、float、chart ) 的數值資訊，用以取代傳統的預處理常數
+    + [C/C++11中std::numeric_limits的使用](https://blog.csdn.net/fengbingchun/article/details/77922558)，範例 ```. run-cmake.sh stl/limits```
 
 ## 參考
 
