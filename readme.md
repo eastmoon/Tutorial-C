@@ -145,8 +145,16 @@ Difference in Reference variable and pointer variable :
 
 #### 例外
 
-+ [MSVC 中的例外處理](https://docs.microsoft.com/zh-tw/cpp/cpp/exception-handling-in-visual-cpp?view=msvc-160)
-    - [例外狀況規格 (擲回、noexcept) MSDN](https://docs.microsoft.com/zh-tw/cpp/cpp/exception-specifications-throw-cpp?view=msvc-160)
++ [stdexcept](https://en.cppreference.com/w/cpp/header/stdexcept)
+    + [try、throw 和 catch 陳述式 (C++)](https://docs.microsoft.com/zh-tw/cpp/cpp/try-throw-and-catch-statements-cpp?view=msvc-160)
+    + [評估 Catch 區塊的方式 (C++)](https://docs.microsoft.com/zh-tw/cpp/cpp/how-catch-blocks-are-evaluated-cpp?view=msvc-160)
+    + [MSVC 中的例外處理](https://docs.microsoft.com/zh-tw/cpp/cpp/exception-handling-in-visual-cpp?view=msvc-160)
+    + [例外狀況規格 (擲回、noexcept) MSDN](https://docs.microsoft.com/zh-tw/cpp/cpp/exception-specifications-throw-cpp?view=msvc-160)
+
+```
+. run-cmake.sh exception
+```
+> 使用 cmake 建立 makefile 來編譯專案
 
 #### 標準樣板函式庫(STL)
 
