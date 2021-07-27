@@ -194,8 +194,11 @@ Difference in Reference variable and pointer variable :
         + [C++ 11 多執行緒下std::unique_lock與std::lock_guard的區別和用法](https://www.itread01.com/content/1544658362.html)
             - ```std::lock_guard``` 是一種 smart lock，避免開發者 unlock 導致死結 ( deadlock )
             - ```std::unique_lock``` 是 ```std::lock_guard``` 的集合版本，提供更多的開鎖原則，但相應的處理負擔更重。
+        + [C++ std::condition_variable 用法與範例](https://shengyu7697.github.io/std-condition_variable/)
     - [this_thread cppreference](http://www.cplusplus.com/reference/thread/this_thread/)
         + [std::this_thread::sleep_for 用法與範例](https://shengyu7697.github.io/std-this_thread-sleep_for/)
+    - [Tasks](https://www.modernescpp.com/index.php/tasks)
+        + [future cppreference](http://www.cplusplus.com/reference/future/)
 
 + 物件編譯
     - [cmake & libpthread](https://stackoverflow.com/questions/1620918/cmake-and-libpthread)
