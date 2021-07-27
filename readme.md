@@ -116,12 +116,12 @@ Difference in Reference variable and pointer variable :
   - [CMake Reference Documentation](https://cmake.org/documentation/)
 
 ```
-. run.sh class
+. run.sh class/base
 ```
 > 使用 c++ 編譯所有 cpp 檔案
 
 ```
-. run-cmake.sh class
+. run-cmake.sh class/base
 ```
 > 使用 cmake 建立 makefile 來編譯專案
 
@@ -139,7 +139,7 @@ Difference in Reference variable and pointer variable :
     - [如何使用CMake正確添加包含目錄](https://ubuntuqa.com/zh-tw/article/9081.html)
 
 ```
-. run-cmake.sh class-polymorphism
+. run-cmake.sh class/polymorphism
 ```
 > 使用 cmake 建立 makefile 來編譯專案
 
