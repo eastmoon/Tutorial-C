@@ -175,9 +175,6 @@ Difference in Reference variable and pointer variable :
 + [演算法](https://www.cplusplus.com/reference/algorithm/)
     - [for_each](https://www.cplusplus.com/reference/algorithm/for_each/)，範例 ```. run-cmake.sh stl/vector```
 
-+ 其他
-
-
 + 文獻
     - [C++ STL 教程](https://www.runoob.com/cplusplus/cpp-stl-tutorial.html)
     - [C++ STL 學習總結(全面)](https://jasonblog.github.io/note/c++/c++_stl_xue_xi_zong_7d5028_quan_976229.html)
@@ -185,11 +182,24 @@ Difference in Reference variable and pointer variable :
 
 #### 執行緒 ( Thread ) 與原子 ( Atome )
 
-+ [Multithreading in modern C++](https://www.modernescpp.com/index.php/der-einstieg-in-modernes-c)
-+ [thread cppreference](https://en.cppreference.com/w/cpp/thread)
++ 語言文獻
+    - [Multithreading in modern C++](https://www.modernescpp.com/index.php/der-einstieg-in-modernes-c)
+    - [thread cppreference](https://en.cppreference.com/w/cpp/thread)
+        + [C++ thread用法總結(整理)](https://www.itread01.com/content/1548785371.html)
+        + [C++ std::thread 建立多執行緒用法與範例](https://www.itread01.com/content/1548785371.html)
+    - [this_thread cppreference](http://www.cplusplus.com/reference/thread/this_thread/)
+        + [std::this_thread::sleep_for 用法與範例](https://shengyu7697.github.io/std-this_thread-sleep_for/)
+
++ 物件編譯
+    - [cmake & libpthread](https://stackoverflow.com/questions/1620918/cmake-and-libpthread)
+    - [linux cmake 多线程 错误 undefined reference to 'pthread_create'](https://shengyu7697.github.io/std-thread/)
 
 ```
-. run-cmake.sh thread
+. run-cmake.sh thread/base
+. run-cmake.sh thread/this
+. run-cmake.sh thread/join
+. run-cmake.sh thread/detach
+. run-cmake.sh thread/mutex
 ```
 > 使用 cmake 建立 makefile 來編譯專案
 
@@ -198,8 +208,10 @@ Difference in Reference variable and pointer variable :
 + [Input and Output](https://www.tutorialspoint.com/cplusplus/cpp_basic_input_output.htm)
 + [Date and Time](https://www.tutorialspoint.com/cplusplus/cpp_date_time.htm)
 + [limits](https://www.cplusplus.com/reference/limits/)
-    + C++11 的 limits 提供的 std::numeric_limits 類別，可提供編譯平台的基礎算數類別 ( int、float、chart ) 的數值資訊，用以取代傳統的預處理常數
-    + [C/C++11中std::numeric_limits的使用](https://blog.csdn.net/fengbingchun/article/details/77922558)，範例 ```. run-cmake.sh stl/limits```
+    - C++11 的 limits 提供的 std::numeric_limits 類別，可提供編譯平台的基礎算數類別 ( int、float、chart ) 的數值資訊，用以取代傳統的預處理常數
+    - [C/C++11中std::numeric_limits的使用](https://blog.csdn.net/fengbingchun/article/details/77922558)，範例 ```. run-cmake.sh stl/limits```
++ [sleep](https://en.cppreference.com/w/cpp/thread/sleep_for)
+    - [如何在 C++ 中實現毫秒級的睡眠](https://www.delftstack.com/zh-tw/howto/cpp/how-to-use-sleep-program-function-in-cpp/)
 
 ## 參考
 
