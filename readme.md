@@ -184,9 +184,13 @@ Difference in Reference variable and pointer variable :
 
 + 語言文獻
     - [Multithreading in modern C++](https://www.modernescpp.com/index.php/der-einstieg-in-modernes-c)
-    - [thread cppreference](https://en.cppreference.com/w/cpp/thread)
+        + [Memory Model Basic](https://levelup.gitconnected.com/memory-model-basic-d8b5f8fddd5f)
+        + [C++11 内存模型解读](https://www.cnblogs.com/catch/p/3803130.html)
+    - [Thread cppreference](https://en.cppreference.com/w/cpp/thread)
         + [C++ thread用法總結(整理)](https://www.itread01.com/content/1548785371.html)
         + [C++ std::thread 建立多執行緒用法與範例](https://www.itread01.com/content/1548785371.html)
+        + [this_thread cppreference](http://www.cplusplus.com/reference/thread/this_thread/)
+            - [std::this_thread::sleep_for 用法與範例](https://shengyu7697.github.io/std-this_thread-sleep_for/)
         + [執行緒局部儲存](https://zh.wikipedia.org/wiki/%E7%BA%BF%E7%A8%8B%E5%B1%80%E9%83%A8%E5%AD%98%E5%82%A8)
         + [Thread-Safe Initialization of Data](https://www.modernescpp.com/index.php/thread-safe-initialization-of-data)
             - 確保資料於應用程式的唯一性，避免 thread 內執行時間不一至導致初始錯亂。
@@ -195,14 +199,17 @@ Difference in Reference variable and pointer variable :
             - ```std::lock_guard``` 是一種 smart lock，避免開發者 unlock 導致死結 ( deadlock )
             - ```std::unique_lock``` 是 ```std::lock_guard``` 的集合版本，提供更多的開鎖原則，但相應的處理負擔更重。
         + [C++ std::condition_variable 用法與範例](https://shengyu7697.github.io/std-condition_variable/)
-    - [this_thread cppreference](http://www.cplusplus.com/reference/thread/this_thread/)
-        + [std::this_thread::sleep_for 用法與範例](https://shengyu7697.github.io/std-this_thread-sleep_for/)
     - [Tasks](https://www.modernescpp.com/index.php/tasks)
         + [future cppreference](http://www.cplusplus.com/reference/future/)
+    - [Atomic MSDN](https://docs.microsoft.com/zh-TW/cpp/standard-library/atomic?view=msvc-160)
+        + 所謂的原子操作，取的就是『原子是最小的、不可分割的最小個體』的意義，它表示在多個執行緒訪問同一個全域資源的時候，能夠確保所有其他的執行緒都不在同一時間內訪問相同的資源。
+            - [std::atomic 用法與範例](https://shengyu7697.github.io/std-atomic/)
+            - [C++ 11 的std::atomic操作](https://www.twblogs.net/a/5cfe09ecbd9eee14029ed744)
 
 + 物件編譯
     - [cmake & libpthread](https://stackoverflow.com/questions/1620918/cmake-and-libpthread)
     - [linux cmake 多线程 错误 undefined reference to 'pthread_create'](https://shengyu7697.github.io/std-thread/)
+    - [【CMake教程】（三）CMake 配置指定C++11编译的标准](https://cloud.tencent.com/developer/article/1741243)
 
 ```
 . run-cmake.sh thread/base
