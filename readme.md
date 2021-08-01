@@ -196,7 +196,7 @@ Difference in Reference variable and pointer variable :
             - 確保資料於應用程式的唯一性，避免 thread 內執行時間不一至導致初始錯亂。
         + [C++ 什麼時候std::shared_timed_mutex比std::mutex慢，什麼時候(不)使用它？](https://www.796t.com/post/NHpnbjI=.html)
         + [C++ 11 多執行緒下std::unique_lock與std::lock_guard的區別和用法](https://www.itread01.com/content/1544658362.html)
-            - ```std::lock_guard``` 是一種 smart lock，避免開發者 unlock 導致死結 ( deadlock )
+            - ```std::lock_guard``` 是一種 smart lock，避免開發者未解鎖 ( unlock ) 導致死結 ( deadlock )
             - ```std::unique_lock``` 是 ```std::lock_guard``` 的集合版本，提供更多的開鎖原則，但相應的處理負擔更重。
         + [C++ std::condition_variable 用法與範例](https://shengyu7697.github.io/std-condition_variable/)
     - [Tasks](https://www.modernescpp.com/index.php/tasks)
@@ -218,6 +218,7 @@ Difference in Reference variable and pointer variable :
 . run-cmake.sh thread/detach
 . run-cmake.sh thread/mutex
 . run-cmake.sh thread/lock_guard
+. run-cmake.sh atomic
 ```
 > 使用 cmake 建立 makefile 來編譯專案
 
