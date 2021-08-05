@@ -208,6 +208,7 @@ Difference in Reference variable and pointer variable :
             - [C++併發實戰16: std::atomic原子操作](https://www.itread01.com/content/1550601564.html)
         + 利用 Memory Order 可對原子操作在多執行緒情況下做到部分的法則修改，已達到符合預期的執行方式與效率優化
             - [理解 C++ 的 Memory Order](http://senlinzhan.github.io/2017/12/04/cpp-memory-order/)
+        + 實驗驗證，若以物件 Worker 建立執行緒，並於物件初始宣告 atomic 變數後於 ```operator()``` 函數中執行，其結果是操作 atomic 並不會反饋於函數中，且易觸碰諸多異常與編譯錯誤；若要封裝執行緒於物件，應使其 atomic 相關變數以關聯方式匯入執行緒封裝物件。
 
 + 物件編譯
     - [cmake & libpthread](https://stackoverflow.com/questions/1620918/cmake-and-libpthread)
