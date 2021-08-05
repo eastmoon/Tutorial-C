@@ -205,6 +205,9 @@ Difference in Reference variable and pointer variable :
         + 所謂的原子操作，取的就是『原子是最小的、不可分割的最小個體』的意義，它表示在多個執行緒訪問同一個全域資源的時候，能夠確保所有其他的執行緒都不在同一時間內訪問相同的資源。
             - [std::atomic 用法與範例](https://shengyu7697.github.io/std-atomic/)
             - [C++ 11 的std::atomic操作](https://www.twblogs.net/a/5cfe09ecbd9eee14029ed744)
+            - [C++併發實戰16: std::atomic原子操作](https://www.itread01.com/content/1550601564.html)
+        + 利用 Memory Order 可對原子操作在多執行緒情況下做到部分的法則修改，已達到符合預期的執行方式與效率優化
+            - [理解 C++ 的 Memory Order](http://senlinzhan.github.io/2017/12/04/cpp-memory-order/)
 
 + 物件編譯
     - [cmake & libpthread](https://stackoverflow.com/questions/1620918/cmake-and-libpthread)
@@ -228,6 +231,7 @@ Difference in Reference variable and pointer variable :
 
 ```
 . run-cmake.sh atomic/base
+. run-cmake.sh atomic/flag
 ```
 > 使用 cmake 建立 makefile 來編譯專案
 
