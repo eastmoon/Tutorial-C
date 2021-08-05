@@ -1,6 +1,8 @@
 /*
 std::atomic_flag 是一個 bool 原子型別，共有兩個狀態 set(flag=true) 和 clear(flag=false)，物件必須被 ATOMIC_FLAG_INIT 初始化，而初始狀態為 clear，相當於靜態初始化。
-一旦 atimic_flag 初始化後，只有三個操作 test_and_set, clear, ，其行為均為原子操作。
+一旦 atimic_flag 初始化後，只有三個操作 test_and_set, clear, 解析 ，其行為均為原子操作。
+
+atmic_flag 是會持續維持在 lock ，直到 clear 執行時短暫回復到 unlock，但其後再次執行又會恢復為 lock
 
 Atomic 類別在建構時的初值方式依據使用的版本會有不同，在 C++ 11 不可使用建構值付值的方式。
 https://en.cppreference.com/w/cpp/atomic/atomic_flag/atomic_flag
