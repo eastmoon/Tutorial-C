@@ -233,6 +233,8 @@ Difference in Reference variable and pointer variable :
 ```
 . run-cmake.sh atomic/base
 . run-cmake.sh atomic/flag
+. run-cmake.sh atomic/bool
+. run-cmake.sh atomic/thread-worker
 ```
 > 使用 cmake 建立 makefile 來編譯專案
 
