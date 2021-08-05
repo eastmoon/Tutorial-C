@@ -211,6 +211,8 @@ Difference in Reference variable and pointer variable :
     - [linux cmake 多线程 错误 undefined reference to 'pthread_create'](https://shengyu7697.github.io/std-thread/)
     - [【CMake教程】（三）CMake 配置指定C++11编译的标准](https://cloud.tencent.com/developer/article/1741243)
 
++ Thread 範例
+
 ```
 . run-cmake.sh thread/base
 . run-cmake.sh thread/this
@@ -218,7 +220,14 @@ Difference in Reference variable and pointer variable :
 . run-cmake.sh thread/detach
 . run-cmake.sh thread/mutex
 . run-cmake.sh thread/lock_guard
-. run-cmake.sh atomic
+. run-cmake.sh atomic/base
+```
+> 使用 cmake 建立 makefile 來編譯專案
+
++ Atomic 範例
+
+```
+. run-cmake.sh atomic/base
 ```
 > 使用 cmake 建立 makefile 來編譯專案
 
