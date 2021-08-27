@@ -104,6 +104,25 @@ Difference in Reference variable and pointer variable :
 . run.sh pointer
 ```
 
+#### 閉包
+
+[閉包 ( Closure )](https://en.wikipedia.org/wiki/Closure_(computer_programming))是一種程式設計語言概念，其意是基於語言對閉環定義而構成的一個物件，例如 function closure 就是以函數的定義來構成一個閉包；由於 Closure 最早用於 λ-calculus、PAL 等函數程式語言中，其後更影響諸多腳本語言，這些語言其編譯器會依據閉包的結構判斷閉包中變數的來源，從而影響運算結果；然而，這對於直譯的腳本語言 ( JavaScript ) 具有高靈活性的特徵，對於編譯的強型態程式語言 ( C++ ) 這則需要另外去思考其設計對於語言規範的對應。
+
+**Closures are to lambdas as objects are to classes.**
+
+就如同文獻提到的描述，lambdas 與 closures 的關係，猶如 classes 與 objects 的關係，亦即編譯與執行的稱謂差；在文獻也提到，對於 C++，其編譯器判定到 lambdas 會將其轉換為 closures 物件，並可以想像透過記憶池的方式生成物件並注入變數。
+
++ [C++ Lambda expressions](https://en.cppreference.com/w/cpp/language/lambda)
+    - [C++ std::function](https://en.cppreference.com/w/cpp/utility/functional/function)
++ [C++ 中的 Lambda 運算式](https://docs.microsoft.com/zh-tw/cpp/cpp/lambda-expressions-in-cpp?view=msvc-160)
++ [C++ Closure](https://leimao.github.io/blog/CPP-Closure/)
+    - [The Closure and Lambda Programming Style](https://dotblogs.com.tw/code6421/2012/08/03/73813)
+    - [Lambdas and closures in C++](https://techmunching.com/lambdas-and-closures-in-c/)
+
+```
+. run.sh closure
+```
+
 #### 物件與結構
 
 + 語言文獻
