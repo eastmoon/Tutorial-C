@@ -181,7 +181,8 @@ Difference in Reference variable and pointer variable :
 > From [標準樣板函式庫 wiki](https://zh.wikipedia.org/wiki/%E6%A0%87%E5%87%86%E6%A8%A1%E6%9D%BF%E5%BA%93)
 
 + 容器
-    - [Vector](https://www.geeksforgeeks.org/vector-in-cpp-stl/)，範例 ```. run-cmake.sh stl/vector```
+    - [Vector](https://www.geeksforgeeks.org/vector-in-cpp-stl/)，範例```. run-cmake.sh stl/vector/base```
+        + [STL vector 效率小記](http://pingyeh.blogspot.com/2011/09/stl-vector.html)，範例```. run-cmake.sh stl/vector/size```
     - [List](https://www.geeksforgeeks.org/list-cpp-stl/)
     - [Deque](https://www.geeksforgeeks.org/deque-cpp-stl/)
     - [Queue](https://www.geeksforgeeks.org/queue-cpp-stl/)
