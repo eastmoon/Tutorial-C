@@ -31,6 +31,9 @@ int main()
     v1[4] = &b;
     v1[9] = &c;
     show_vector(&v1);
+    //
+    v1.reserve(5);
+    show_vector(&v1);
     // Re-capacity
     v1.reserve(20);
     show_vector(&v1);
@@ -40,5 +43,9 @@ int main()
     // Re-size
     v1.resize(20);
     show_vector(&v1);
+    // Clear
+    v1.clear();
+    show_vector(&v1);
+
     return 0;
 }
