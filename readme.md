@@ -140,7 +140,7 @@ Difference in Reference variable and pointer variable :
 > 使用 c++ 編譯所有 cpp 檔案
 
 ```
-. run-cmake.sh class/base
+. run.sh class/base
 ```
 > 使用 cmake 建立 makefile 來編譯專案
 
@@ -158,7 +158,7 @@ Difference in Reference variable and pointer variable :
     - [如何使用CMake正確添加包含目錄](https://ubuntuqa.com/zh-tw/article/9081.html)
 
 ```
-. run-cmake.sh class/polymorphism
+. run.sh class/polymorphism
 ```
 > 使用 cmake 建立 makefile 來編譯專案
 
@@ -171,7 +171,7 @@ Difference in Reference variable and pointer variable :
     + [例外狀況規格 (擲回、noexcept) MSDN](https://docs.microsoft.com/zh-tw/cpp/cpp/exception-specifications-throw-cpp?view=msvc-160)
 
 ```
-. run-cmake.sh exception
+. run.sh exception
 ```
 > 使用 cmake 建立 makefile 來編譯專案
 
@@ -181,8 +181,8 @@ Difference in Reference variable and pointer variable :
 > From [標準樣板函式庫 wiki](https://zh.wikipedia.org/wiki/%E6%A0%87%E5%87%86%E6%A8%A1%E6%9D%BF%E5%BA%93)
 
 + 容器
-    - [Vector](https://www.geeksforgeeks.org/vector-in-cpp-stl/)，範例```. run-cmake.sh stl/vector/base```
-        + [STL vector 效率小記](http://pingyeh.blogspot.com/2011/09/stl-vector.html)，範例```. run-cmake.sh stl/vector/size```
+    - [Vector](https://www.geeksforgeeks.org/vector-in-cpp-stl/)，範例```. run.sh stl/vector/base```
+        + [STL vector 效率小記](http://pingyeh.blogspot.com/2011/09/stl-vector.html)，範例```. run.sh stl/vector/size```
     - [List](https://www.geeksforgeeks.org/list-cpp-stl/)
     - [Deque](https://www.geeksforgeeks.org/deque-cpp-stl/)
     - [Queue](https://www.geeksforgeeks.org/queue-cpp-stl/)
@@ -193,7 +193,7 @@ Difference in Reference variable and pointer variable :
     - [Iterators](https://www.geeksforgeeks.org/iterators-c-stl/)
 
 + [演算法](https://www.cplusplus.com/reference/algorithm/)
-    - [for_each](https://www.cplusplus.com/reference/algorithm/for_each/)，範例 ```. run-cmake.sh stl/vector```
+    - [for_each](https://www.cplusplus.com/reference/algorithm/for_each/)，範例 ```. run.sh stl/vector```
 
 + 文獻
     - [C++ STL 教程](https://www.runoob.com/cplusplus/cpp-stl-tutorial.html)
@@ -238,23 +238,23 @@ Difference in Reference variable and pointer variable :
 + Thread 範例
 
 ```
-. run-cmake.sh thread/base
-. run-cmake.sh thread/this
-. run-cmake.sh thread/join
-. run-cmake.sh thread/detach
-. run-cmake.sh thread/mutex
-. run-cmake.sh thread/lock_guard
-. run-cmake.sh atomic/base
+. run.sh thread/base
+. run.sh thread/this
+. run.sh thread/join
+. run.sh thread/detach
+. run.sh thread/mutex
+. run.sh thread/lock_guard
+. run.sh atomic/base
 ```
 > 使用 cmake 建立 makefile 來編譯專案
 
 + Atomic 範例
 
 ```
-. run-cmake.sh atomic/base
-. run-cmake.sh atomic/flag
-. run-cmake.sh atomic/bool
-. run-cmake.sh atomic/thread-worker
+. run.sh atomic/base
+. run.sh atomic/flag
+. run.sh atomic/bool
+. run.sh atomic/thread-worker
 ```
 > 使用 cmake 建立 makefile 來編譯專案
 
