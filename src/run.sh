@@ -45,7 +45,8 @@ if [ -d ${TARGET_SOURCE_DIR} ]; then
     if [ -e ${BUILD_DIR}/${TARGET_SOURCE_DIR}/example ];
     then
         printf "\n----------\n"
-        ${BUILD_DIR}/${TARGET_SOURCE_DIR}/example
+        cd ${BUILD_DIR}/${TARGET_SOURCE_DIR}
+        ./example
         printf "\n----------\n"
     else
         echo-e "Executable example file not in /build/${TARGET_SOURCE_DIR} directory."
