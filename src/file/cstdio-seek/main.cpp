@@ -10,7 +10,7 @@ stdio.h : https://www.cplusplus.com/reference/cstdio/
   fprintf : https://www.cplusplus.com/reference/cstdio/fprintf/
 
 Try to find character '\n' and mark one line.
-But it will have unknown problem, maybe is fseek, fread will read error memory block, or printf will have call wrong memory block.
+But it will have unknown problem ( Segmentation fault ), maybe is fseek, fread will read error memory block, or printf will have call wrong memory block.
 */
 #include <stdio.h>
 #include <string.h>

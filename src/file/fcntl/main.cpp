@@ -1,5 +1,6 @@
 /*
 system call filesystem, it is linux system library.
+ref : File descriptor, https://zh.wikipedia.org/zh-tw/%E6%96%87%E4%BB%B6%E6%8F%8F%E8%BF%B0%E7%AC%A6
 ref : https://www.delftstack.com/zh-tw/howto/c/open-vs-fopen-in-c/
 
 fcntl.h : https://man7.org/linux/man-pages/man0/fcntl.h.0p.html
